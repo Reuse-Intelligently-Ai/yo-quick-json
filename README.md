@@ -1,75 +1,54 @@
-# Nuxt Minimal Starter
+# yo-quick-json
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+[![Vercel](https://img.shields.io/badge/deployed%20on-vercel-000?logo=vercel&logoColor=white)](https://yo-quick-json.vercel.app)
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)
+[![Made with ❤️ by Yogi](https://img.shields.io/badge/made%20by-Yogi%20Arif%20Widodo-ff69b4)](https://github.com/yogiarifwidodo)
 
-## Setup
+A modern and minimal JSON formatter & beautifier built for speed, simplicity, and developer ergonomics.
 
-Make sure to install dependencies:
+🔗 **Live Demo**: [yo-quick-json.vercel.app](https://yo-quick-json.vercel.app)
+
+---
+
+## ✨ Features
+
+- 🧹 Beautify & format JSON instantly
+- 📋 Copy/paste-friendly interface
+- 💻 Works offline (PWA-ready)
+- 🌙 Dark mode support
+
+## 🔧 Tech Stack
+
+- [Next.js](https://nextjs.org)
+- [TypeScript](https://www.typescriptlang.org)
+- [Tailwind CSS](https://tailwindcss.com)
+- [React](https://react.dev)
+- [Prettier (JSON formatting)](https://prettier.io)
+
+## 🚀 Getting Started
 
 ```bash
-# npm
-npm install
-
-# pnpm
+git clone https://github.com/yogiarifwidodo/yo-quick-json.git
+cd yo-quick-json
 pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
 pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
 ```
 
-## Production
+## 📦 Deployment
 
-Build the application for production:
+Deployed on [Vercel](https://vercel.com) — automatic CI/CD from the `main` branch.
 
-```bash
-# npm
-npm run build
+---
 
-# pnpm
-pnpm build
+## 🧩 Suggestions
 
-# yarn
-yarn build
+- ✅ Add drag-and-drop `.json` file support
+- ✅ Add JSON validation with error messages
+- 🔄 Option to minify JSON
+- 💾 Save recent history (localStorage)
 
-# bun
-bun run build
-```
+---
 
-Locally preview production build:
+## 📄 License
 
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+This project is [MIT](./LICENSE) licensed.
